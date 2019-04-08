@@ -168,7 +168,7 @@ function doWhatItSays() {
       for (var i = 0; i < data.length; i++) {
          var result = '';
          if (data[i]) {
-            result += ("node" + " " + "liri.1.js" + " " + "spotify-this-song" + " " + data[i]);
+            result += ("node" + " " + "liri.js" + " " + "spotify-this-song" + " " + data[i]);
         }
       }
       //We will now print to the terminal and execute the spotify-this-song function
